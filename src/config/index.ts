@@ -4,4 +4,4 @@ dotenv.config({
   path: ".env",
 });
 
-export const { PORT } = process.env;
+export const { PORT, NODE_ENV } = process.env;
